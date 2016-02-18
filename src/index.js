@@ -4,6 +4,14 @@ import debounce from './decorator/debounce';
 import throttle from './decorator/throttle';
 
 
+//let descriptor = {
+//	value: specifiedFunction,
+//	enumerable: false,
+//	configurable: true,
+//	writable: true
+//};
+
+
 @testable()
 class Boo extends Object {
 
