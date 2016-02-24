@@ -3,7 +3,6 @@ import testable from './decorator/testable';
 import debounce from './decorator/debounce';
 import throttle from './decorator/throttle';
 
-
 //let descriptor = {
 //	value: specifiedFunction,
 //	enumerable: false,

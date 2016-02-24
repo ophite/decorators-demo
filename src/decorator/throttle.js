@@ -16,7 +16,6 @@ export default (duration = 500) => {
 				clearTimeout(timeoutId);
 			}
 
-
 			isThrottled = true;
 			timeoutId = setTimeout((() => {
 				isThrottled = false;
